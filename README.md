@@ -6,8 +6,8 @@ A modern, responsive, and clear Order Tracking interface built for e-commerce ap
 
 ## 🔗 Live Demo & Repository
 
-- **Live URL (Netlify):** [https://your-app-name.netlify.app](https://your-app-name.netlify.app)
-- **GitHub Repository:** [https://github.com/your-username/order-tracking-app](https://github.com/your-username/order-tracking-app)
+- **Live URL (Netlify):** [https://order-tracking-screen.netlify.app/](https://your-app-name.netlify.app)
+- **GitHub Repository:** [https://github.com/afrinaswarna/order-tracking-screen](https://github.com/your-username/order-tracking-app)
 
 ---
 
