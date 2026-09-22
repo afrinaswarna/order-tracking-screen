@@ -1,16 +1,50 @@
-# React + Vite
+# 📦 Mobile Order Tracking & Issue Management Screen
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive, and clear Order Tracking interface built for e-commerce applications. Designed to solve common user pain points by providing transparent order status updates and handling edge-case scenarios effortlessly.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🔗 Live Demo & Repository
 
-## React Compiler
+- **Live URL (Netlify):** [https://your-app-name.netlify.app](https://your-app-name.netlify.app)
+- **GitHub Repository:** [https://github.com/your-username/order-tracking-app](https://github.com/your-username/order-tracking-app)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## ✨ Features & Requirements Handled
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 1. Clear Visual Timeline & Progress Tracking
+- Displays step-by-step progress: **Order Placed ➔ Shipped ➔ Out for Delivery ➔ Delivered**.
+- Visual indicators (active colors, checkmarks) to show completed vs. pending stages clearly.
+
+### 2. Adaptation to Edge-Case Scenarios
+The UI adapts dynamically to handle three critical delivery situations:
+1. **Delayed Order State:** Clearly communicates delivery delays caused by external factors (e.g., weather/transit) and offers quick access to support.
+2. **Delivered but Not Received State:** Provides an immediate call-to-action ("Report Issue") for customers whose order is marked delivered but wasn't received.
+3. **Tracking Not Available Yet State:** Displays a graceful placeholder state for newly confirmed orders where carrier tracking has not begun, avoiding empty/broken screens.
+
+### 3. Evaluator State Switcher
+- Includes an interactive state control bar at the top of the app, allowing reviewers/evaluators to instantly test all 3 delivery situations with a single click.
+
+### 4. Responsive & Modern Design
+- Pixel-perfect layout tailored for mobile screen widths (**360px – 430px**).
+- Clean spacing, clear typography hierarchy, and accessible action buttons.
+
+---
+
+## 🛠️ Tech Stack
+
+- **Framework:** React.js
+- **Routing:** React Router v6
+- **Styling:** Tailwind CSS
+- **Icons:** Lucide React (`lucide-react`)
+- **Deployment:** Netlify
+
+---
+
+## 🚀 Local Setup & Installation
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/your-username/order-tracking-app.git](https://github.com/your-username/order-tracking-app.git)
+   cd order-tracking-app
